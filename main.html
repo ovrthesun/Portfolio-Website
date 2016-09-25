@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width-device-width, initial-scale=1, user-scalabe=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <img class="img-circle title-logo" src="http://placekitten.com/150/150" alt="Title Logo">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">Jae Lee</h1>
+                <h3 class="hidden-xs">Full-Stack Guru</h3>
+            </div>
+        </header>
+
+        <div class="col-md-12">
+            <hr>
+        </div>
+
+        <section class="row">
+            <div class="col-md-12">
+                <img class="img-responsive center-block" src="http://placekitten.com/1200/450" alt="Main image">
+            </div>
+        </section>
+
+        <div class="col-md-12">
+            <hr>
+        </div>
+
+        <section class="row">
+            <div class="col-md-12">
+                <h2 id="project-title" class="text-muted">Featured Work</h2>
+                <p class="h4 text-center">This is where you get to see my beautiful collection of projects</p>
+            </div>
+        </section>
+
+        <section class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive center-block img-rounded" src="http://placekitten.com/300/150" data-toggle="modal" data-target="#project1" alt="Project 1">
+                <h3 class="text-uppercase">Project 1</h3>
+                <a>https://google.com</a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive center-block img-rounded" src="http://placekitten.com/300/150" data-toggle="modal" data-target="#project2" alt="Project 2">
+                <h3 class="text-uppercase">Project 2</h3>
+                <a>https://google.com</a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive center-block img-rounded" src="http://placekitten.com/300/150" data-toggle="modal" data-target="#project3" alt="Project 3">
+                <h3 class="text-uppercase">Project 3</h3>
+                <a>https://google.com</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="http://placekitten.com/300/300">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 2</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="http://placekitten.com/300/300" alt="Project 2">
+                    This was my second project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 3</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="http://placekitten.com/300/300" alt="Project 3">
+                    This was my third project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
